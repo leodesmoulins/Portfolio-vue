@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <footer class="fixed bottom-0 left-0 w-full flex justify-center items-center py-4 bg-transparent">
-      <div class="bg-purple-700 dark:bg-purple-700 shadow-md rounded-4xl p-4 flex space-x-4">
+      <div class="bg-purple-700 dark:bg-purple-900 shadow-md rounded-4xl p-4 flex space-x-4">
         <button @click="scrollToSection('#home')" :class="buttonClass('#home')">
           <div class="flex flex-col items-center space-y-1">
             <HomeIcon class="h-6 w-6" />
@@ -54,8 +54,8 @@ const scrollToSection = (id: string) => {
 
 const buttonClass = (id: string) => {
   return activeSection.value === id
-    ? 'px-4 py-2 text-purple-100 dark:text-purple-100 font-bold rounded-4xl bg-purple-800 dark:bg-purple-200 transition duration-300 ease-in-out'
-    : 'px-4 py-2 text-purple-100 dark:text-purple-100 font-bold rounded-4xl hover:bg-purple-800 dark:hover:bg-purple-200 transition duration-300 ease-in-out'
+    ? 'px-4 py-2 text-purple-100 dark:text-purple-100 font-bold rounded-4xl bg-purple-800 dark:bg-purple-600 transition duration-300 ease-in-out'
+    : 'px-4 py-2 text-purple-100 dark:text-purple-100 font-bold rounded-4xl hover:bg-purple-800 dark:hover:bg-purple-600 transition duration-300 ease-in-out'
 }
 
 onMounted(() => {

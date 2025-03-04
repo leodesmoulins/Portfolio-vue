@@ -12,14 +12,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Portfolio - Léo', // Changez le titre ici
+      title: 'Portfolio - Léo',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: 'Votre description' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/img/pokeball.png' } // Changez le chemin de votre favicon ici
+        { rel: 'icon', type: 'image/x-icon', href: '/img/pokeball.png' }
       ]
     }
   }
