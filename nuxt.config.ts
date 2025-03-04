@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: 'Votre description' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/img/pokeball.png' }
+        { rel: 'icon', type: 'image/x-icon', href: '/img/logo poke.png' }
       ]
     }
   }
