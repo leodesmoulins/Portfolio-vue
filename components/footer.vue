@@ -7,35 +7,30 @@
             <HomeIcon class="h-6 w-6" />
             <p class="text-xs">Home</p>
           </div>
-          
         </button>
         <button @click="scrollToSection('#about')" :class="buttonClass('#about')">
           <div class="flex flex-col items-center space-y-1">
             <UserIcon class="h-6 w-6" />
             <p class="text-xs">About</p>
           </div>
-          
         </button>
         <button @click="scrollToSection('#skills')" :class="buttonClass('#skills')">
-            <div class="flex flex-col items-center space-y-1"> 
+          <div class="flex flex-col items-center space-y-1">
             <BookOpenIcon class="h-6 w-6" />
             <p class="text-xs">Skills</p>
-            </div>
-          
+          </div>
         </button>
         <button @click="scrollToSection('#project')" :class="buttonClass('#project')">
           <div class="flex flex-col items-center space-y-1">
             <BriefcaseIcon class="h-6 w-6" />
             <p class="text-xs">Project</p>
           </div>
-          
         </button>
         <button @click="scrollToSection('#contact')" :class="buttonClass('#contact')">
           <div class="flex flex-col items-center space-y-1">
             <EnvelopeIcon class="h-6 w-6" />
             <p class="text-xs">Contact</p>
           </div>
-          
         </button>
       </div>
     </footer>
