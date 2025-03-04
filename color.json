@@ -1,0 +1,4 @@
+texte en light : text-purple-700 
+text en dark mode: dark:text-purple-300
+background en light mode : bg-purple-100 
+background en dark mode : dark:bg-gray-900
