@@ -1,41 +1,44 @@
 <template>
   <div class="container-fluid">
-    <footer class="fixed bottom-0 left-0 w-full flex justify-center items-center py-4 bg-transparent">
-      <div class="bg-purple-700 dark:bg-purple-900 shadow-md rounded-4xl p-4 flex space-x-4">
+    <footer class="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg flex justify-center items-center bg-transparent z-50">
+      <div class="bg-purple-700 dark:bg-purple-900 shadow-md rounded-xl px-2 py-1 flex space-x-2 sm:space-x-4">
         <button @click="scrollToSection('#home')" :class="buttonClass('#home')">
-          <div class="flex flex-col items-center space-y-1">
-            <HomeIcon class="h-6 w-6" />
-            <p class="text-xs">Home</p>
+          <div class="flex flex-col items-center space-y-0.5">
+            <HomeIcon class="h-5 w-5" />
+            <p class="text-[10px]">Home</p>
           </div>
         </button>
         <button @click="scrollToSection('#about')" :class="buttonClass('#about')">
-          <div class="flex flex-col items-center space-y-1">
-            <UserIcon class="h-6 w-6" />
-            <p class="text-xs">About</p>
+          <div class="flex flex-col items-center space-y-0.5">
+            <UserIcon class="h-5 w-5" />
+            <p class="text-[10px]">About</p>
           </div>
         </button>
         <button @click="scrollToSection('#skills')" :class="buttonClass('#skills')">
-          <div class="flex flex-col items-center space-y-1">
-            <BookOpenIcon class="h-6 w-6" />
-            <p class="text-xs">Skills</p>
+          <div class="flex flex-col items-center space-y-0.5">
+            <BookOpenIcon class="h-5 w-5" />
+            <p class="text-[10px]">Skills</p>
           </div>
         </button>
         <button @click="scrollToSection('#project')" :class="buttonClass('#project')">
-          <div class="flex flex-col items-center space-y-1">
-            <BriefcaseIcon class="h-6 w-6" />
-            <p class="text-xs">Project</p>
+          <div class="flex flex-col items-center space-y-0.5">
+            <BriefcaseIcon class="h-5 w-5" />
+            <p class="text-[10px]">Project</p>
           </div>
         </button>
         <button @click="scrollToSection('#contact')" :class="buttonClass('#contact')">
-          <div class="flex flex-col items-center space-y-1">
-            <EnvelopeIcon class="h-6 w-6" />
-            <p class="text-xs">Contact</p>
+          <div class="flex flex-col items-center space-y-0.5">
+            <EnvelopeIcon class="h-5 w-5" />
+            <p class="text-[10px]">Contact</p>
           </div>
         </button>
       </div>
     </footer>
   </div>
 </template>
+
+
+
 
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue'
